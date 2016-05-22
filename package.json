@@ -1,0 +1,26 @@
+{
+  "name": "angular-sortable",
+  "version": "1.0.0",
+  "description": "A simple way to include sortable tables in AngularJS",
+  "main": "mian.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fnc314/angular-sortable.git"
+  },
+  "keywords": [
+    "angular",
+    "sorting",
+    "tables"
+  ],
+  "author": {
+    "name": "Franco N. Colaizzi",
+    "email": "fnc314@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.x"
+  }
+}
