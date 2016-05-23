@@ -9,7 +9,9 @@ A package used for sorting tables easily with HTML/Angular Directive Attributes
 <table>
   <thead>
     <tr>
-      <th>Header</th>
+      <th>Header One</th>
+      <th>Header Two</th>
+      <th>Header Three</th>
     </tr>
   </thead>
   <tbody>
