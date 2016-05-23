@@ -4,7 +4,7 @@ A package used for sorting tables easily with HTML/Angular Directive Attributes
 
 #### NOTES
 
-1. This table requires the use of symantic HTML tables 
+1. This tool requires the use of symantic HTML tables and Angular's `ng-repeat`
 ```HTML
 <table>
   <thead>
@@ -12,6 +12,13 @@ A package used for sorting tables easily with HTML/Angular Directive Attributes
       <th>Header</th>
     </tr>
   </thead>
+  <tbody>
+    <tr ng-repeat="thing in things | sortBy:sortingFilter:sortingOrder">
+      <td>{{thing.attributeOne}}</td>
+      <td>{{thing.attributeTwo}}</td>
+      <td>{{thing.attributeThree}}</td>
+    </tr>
+  </tbody>
 </table>
 ```
 2. Styles included with this rely on unicode characters and no special glyphs
