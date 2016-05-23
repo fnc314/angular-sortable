@@ -54,7 +54,7 @@ function myCtrl() {
 And our view:
 ```HTML
 <table sortable-table="myCtrl">
-  <<thead>
+  <thead>
     <tr>
       <th sortable-table-filter="firstName">First Name</th>
       <th sortable-table-filter="lastName">Last Name</th>

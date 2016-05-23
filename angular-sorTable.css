@@ -1,0 +1,19 @@
+table[sortable-table] th {
+  position: relative;
+}
+
+.sorTable-down-arrow:after, .sorTable-up-arrow:after {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  font-weight: normal;
+  margin: -9px 0 0 5px;
+}
+
+.sorTable-down-arrow:after {
+  content: "\25BC";
+}
+
+.sorTable-up-arrow:after {
+  content: "\25B2";
+}
